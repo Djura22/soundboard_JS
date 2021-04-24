@@ -30,7 +30,6 @@ function addSoundsToPage(sounds) {
     soundDiv.appendChild(player);
     players.push({ player, soundDiv });
 
-
     soundDiv.addEventListener('mousedown', () => {
       soundDiv.style.background = "#B22222"
       player.currentTime = 0;
