@@ -1,3 +1,5 @@
+// const PORT = process.env.PORT
+
 const soundsElement = document.querySelector('#sounds');
 
 (async () => {
@@ -36,3 +38,7 @@ function addSoundsToPage(sounds) {
     soundsElement.appendChild(soundDiv);
   });
 }
+
+server.listen(PORT, function() {
+  console.log("Server is running");
+})
