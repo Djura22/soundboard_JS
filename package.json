@@ -1,0 +1,14 @@
+{
+  "name": "morcar_soundboard",
+  "version": "1.0.0",
+  "description": "* Request Sounds JSON\r * Add sounds to page\r * CLick to play\r * Button to stop all sounds",
+  "main": "app.js",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
