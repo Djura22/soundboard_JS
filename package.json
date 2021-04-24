@@ -4,7 +4,8 @@
   "description": "* Request Sounds JSON\r * Add sounds to page\r * CLick to play\r * Button to stop all sounds",
   "main": "app.js",
   "scripts": {
-    "dev": "lite-server"
+    "dev": "lite-server",
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
