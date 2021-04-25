@@ -5,9 +5,9 @@
   "main": "app.js",
   "scripts": {
     "dev": "lite-server",
-    "start": "node app.js"
+    "start": "node index.js"
   },
-  "author": "",
+  "author": "Djura",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.6.1"

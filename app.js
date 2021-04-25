@@ -1,11 +1,3 @@
-const express = require('express');
-const app = express();
-const port = 3000;
-
-app.get('/', (req, res) => res.send('Hello World'));
-
-app.listen(process.env.PORT || port, () => console.log(`Server on http://localhost:${port}`));
-
 const soundsElement = document.querySelector('#sounds');
 const stopButton = document.querySelector('#stopButton');
 
