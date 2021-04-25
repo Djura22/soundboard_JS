@@ -12,7 +12,9 @@
     <div id="banner">
       <div id="wrapper">
           <div id="container">
-            <audio id="themesong" src="./sounds/morcar_theme.mp3" autoplay loop></audio>
+            <audio controls autoplay loop hidden id="themesong">
+              <source src="./sounds/morcar_theme.mp3" type="audio/mpeg">
+            </audio>
             <img class="banner-img" src="./images/morcar_bg.jpg">
             <button onclick="document.getElementById('themesong').muted=!document.getElementById('themesong').muted">&#128226 &#9835</button>
           </div>
