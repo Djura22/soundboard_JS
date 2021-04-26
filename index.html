@@ -12,11 +12,14 @@
     <div id="banner">
       <div id="wrapper">
           <div id="container">
-            <audio controls autoplay loop hidden id="themesong">
-              <source src="./sounds/morcar_theme.mp3" type="audio/mpeg">
-            </audio>
-            <img class="banner-img" src="./images/morcar_bg.jpg">
-            <button onclick="document.getElementById('themesong').muted=!document.getElementById('themesong').muted">&#128226 &#9835</button>
+            <h1>Morcar's Soundboard</h1>
+            <img class="banner-img" src="./images/morcar_bg.jpg" style="width:100%;max-width:400px">
+            <img src="images/bonfire.jpg" width="10%" height="10%" id="bonfire" onclick="players[8][0].play()" />
+            <!-- <div autoplay muted src="../sounds/silence.mp3" allow="autoplay" id="audio"></div>
+            <audio controls autoplay muted loop hidden id="themesong">
+              <source src="../sounds/morcar_theme.mp3" type="audio/mpeg">
+            </audio> -->
+            <!-- <button onclick="document.getElementById('themesong').muted=!document.getElementById('themesong').muted">&#128226 &#9835</button> -->
           </div>
       </div>
     </div>
@@ -25,11 +28,10 @@
 
       </section>
       <div id="stopButton" class="sound" style="background:black">
-        <h2>SHUT MORCAR UP!</h2>
+        <h2>SILENCE!</h2>
       </div>
     </main>
     <h1> Designed by Djura </h1>
-    <h2> Please send any suggestions with link to episode and timestamps to djura22@protonmail.com</h2>
     <script src="app.js" charset="utf-8"></script>
   </body>
 
