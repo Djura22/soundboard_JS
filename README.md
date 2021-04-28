@@ -9,4 +9,4 @@
 * to update deployed app
 surge --domain weaklemondrink.surge.sh
 
-## https://www.weaklemondrink.surge.sh
+## www.weaklemondrink.surge.sh
