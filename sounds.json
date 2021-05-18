@@ -1,23 +1,23 @@
 [
   {
-    "title": "Weak Lemon",
-    "src": "weak_lemon.mp3"
-  },
-  {
-    "title": "Cheese",
-    "src": "cheese.mp3"
-  },
-  {
     "title": "Ceremony Means Nothing To Him",
     "src": "ceremony_means_nothing.mp3"
   },
   {
-    "title": "Bonfire Would Be Nice",
-    "src": "bonfire.mp3"
-  },
-  {
     "title": "Dark Souls",
     "src": "dreaded_ds.mp3"
+  },
+  {
+    "title": "Alex Boy",
+    "src": "alex_boy.mp3"
+  },
+  {
+    "title": "Respect The Angle",
+    "src": "respect_the_angle.mp3"
+  },
+  {
+    "title": "Nescafe Gold",
+    "src": "nescafe_gold.mp3"
   },
   {
     "title": "The Third Biscuit",
@@ -30,6 +30,17 @@
   {
     "title": "Morcar's Mantra",
     "src": "a_warriors_mantra.mp3"
+  },
+  {
+    "title": "Can't See Me",
+    "src": "cant_see_me.mp3"
+  },
+  {
+    "title": "The Simpvessel",
+    "src": "morcar_the_simp.mp3"
+  },
+  {
+    "title": "Friends in High Places",
+    "src": "bolivia.mp3"
   }
-
 ]

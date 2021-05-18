@@ -1,32 +1,32 @@
-const soundsElement = document.querySelector('#sounds');
-const stopButton = document.querySelector('#stopButton');
+const soundsElement = document.querySelector('#sounds2');
+const stopButton = document.querySelector('#stopButton2');
 
 (async () => {
-  const sounds = await getSounds();
-  addSoundsToPage(sounds);
+  const sounds2 = await getSounds();
+  addSoundsToPage(sounds2);
 })()
 
 async function getSounds() {
-  const response = await fetch('./sounds.json');
+  const response = await fetch('./sounds2.json');
   const json = await response.json();
   return json;
 }
 
-function addSoundsToPage(sounds) {
+function addSoundsToPage(sounds2) {
 
   const players = []
 
-  sounds.forEach(sound => {
+  sounds2.forEach(sound2 => {
     const soundDiv = document.createElement('div');
-    soundDiv.className = 'sound';
+    soundDiv.className = 'sound2';
 
     const soundTitle = document.createElement('h2');
-    soundTitle.textContent = sound.title;
+    soundTitle.textContent = sound2.title;
 
     soundDiv.appendChild(soundTitle);
 
     const player = document.createElement('audio');
-    player.setAttribute('src', `sounds/${sound.src}`)
+    player.setAttribute('src', `sounds2/${sound2.src}`)
     soundDiv.appendChild(player);
     players.push({ player, soundDiv });
 
@@ -44,25 +44,14 @@ function addSoundsToPage(sounds) {
     soundsElement.appendChild(soundDiv);
   });
 
-  document.querySelector('#stopButton').addEventListener('click', stopAll);
-  document.querySelector('#lemon').addEventListener('click', playLemon);
-  document.querySelector('#cheese').addEventListener('click', playCheese);
-  document.querySelector('#bonfire').addEventListener('click', playBonfire);
-
-  function playBonfire(){
-    var music = new Audio('./sounds/bonfire.mp3');
+  function playYoda(){
+    var music = new Audio('./sounds2/yoda.mp3');
     music.play();
   }
 
-  function playCheese(){
-    var music = new Audio('./sounds/cheese.mp3');
-    music.play();
-  }
+  document.querySelector('#stopButton2').addEventListener('click', stopAll);
 
-  function playLemon(){
-    var music = new Audio('./sounds/weak_lemon.mp3');
-    music.play();
-  }
+  document.querySelector('#yoda').addEventListener('click', playYoda);
 
   const keyCodes = {
     65: 0, 

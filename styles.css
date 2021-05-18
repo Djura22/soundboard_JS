@@ -14,21 +14,42 @@ body {
 #container {
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
+
+#container2 {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#footer {
+  width: 100%;
+  margin-top: 2px;
+}
+
 .banner-img {
-  display:none;
+  display:flex;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 1000%;
   margin-bottom: 1px;
 }
 
 .container {
-  margin: 0px 3em 0px 3em;
+  margin: 0px 3em 30px 3em;
   background-image: url("/images/hero-quest-3.png");
   background-size:cover;
   border-radius: 25px;
+  background-color: #111031
+}
+
+.container2 {
+  margin: 0px 3em 0px 3em;
+  background-image: url("/images/you_died.png");
+  background-size:contain;
+  border-radius: 25px;
+  background-color: #111031
 }
 
 .sound {
@@ -40,14 +61,33 @@ body {
   margin: 15px;
   display: inline-block;
   width: 23%;
+  cursor:pointer;
+}
+
+.sound2 {
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 70px;
+  background: black;
+  color: white;
+  margin: 15px;
+  display: inline-block;
+  width: 23%;
+  cursor:pointer;
+}
+
+.image {
+  cursor:pointer;
 }
 
 button {
   margin: 0.5em;
   width: 10%;
-  background: darkred;
+  background: black;
   border: 2px solid black;
   border-radius: 70px;
+  margin: 0 auto;
+  margin-bottom: 5px;
 }
 
 audio { 
