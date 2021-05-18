@@ -10,3 +10,7 @@
 surge --domain weaklemondrink.surge.sh
 
 ## www.weaklemondrink.surge.sh
+
+![Front Page](./images/front_page.png)
+
+![Secret Page](./images/rage_page.png)
